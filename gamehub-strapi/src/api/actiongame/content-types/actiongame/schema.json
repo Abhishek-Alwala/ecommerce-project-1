@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "actiongames",
+  "info": {
+    "singularName": "actiongame",
+    "pluralName": "actiongames",
+    "displayName": "actiongame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "decimal"
+    }
+  }
+}
